@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+        function doYouAgreeForTerms(term,yes,no) {
+            if (confirm(term)) yes()
+            else no();
+
+        }
+        function yes() {
+            alert("agree")
+        }
+        function no() {
+            alert("not agree")
+        }
+
+        doYouAgreeForTerms("do you agree",yes,no)
+        
+
+        </script>
+    </body>
+
+</html>
