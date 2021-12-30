@@ -1,0 +1,44 @@
+/* .card {
+    background: steelblue;
+    color: white;
+    max-width: 200px;
+    padding: 20px;
+
+}
+
+h1 {
+    line-height: 1em;
+}
+
+p {
+    line-height: 1.5em;
+} */
+
+
+.card-1 {
+    background: cadetblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    background: antiquewhite;
+    height: 55px;
+    display: block;
+    border-radius: 30px;
+}
+
+.circle-card {
+    width: 55px;
+}
+
+p,h3 {
+    margin: 0;
+}
+
+
+html,body {
+    padding: 0;
+    margin: 0;
+}
